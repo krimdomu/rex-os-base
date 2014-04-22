@@ -11,8 +11,8 @@ use Rex -base;
 use Rex::Ext::ParamLookup;
 
 our %package_map = (
-  debian => [ "nc", "htop", "tree", "unzip", "strace", "ltrace", "vim" ],
-  ubuntu => [ "nc", "htop", "tree", "unzip", "strace", "ltrace", "vim" ],
+  debian => [ "netcat", "htop", "tree", "unzip", "strace", "ltrace", "vim" ],
+  ubuntu => [ "netcat", "htop", "tree", "unzip", "strace", "ltrace", "vim" ],
   centos =>
     [ "nc", "htop", "tree", "unzip", "strace", "ltrace", "vim-enhanced" ],
   redhat =>
